@@ -1,0 +1,79 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    color: #34495e;
+}
+
+h1 {
+    color: #e74c3c;
+    text-align: center;
+}
+
+#carta {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #e74c3c;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+    display: block;
+}
+
+#fotos {
+    margin-top: 20px;
+}
+
+.foto-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+
+#fotos {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.foto-container {
+    display: flex;
+    justify-content: space-around; /* Espaço uniforme entre as imagens */
+    margin-top: 10px;
+}
+
+.foto {
+    width: 120px; /* Ajuste a largura como preferir */
+    height: auto; /* Mantém a proporção */
+    max-width: 100%; /* Impede que a imagem fique maior que o contêiner */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar um efeito de profundidade */
+}
